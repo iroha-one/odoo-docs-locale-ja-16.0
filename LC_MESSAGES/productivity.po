@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: odoo-docs-locale-ja-160\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-09-24 02:58+0000\n"
-"PO-Revision-Date: 2023-02-22 03:02\n"
+"POT-Creation-Date: 2023-01-31 10:29+0000\n"
+"PO-Revision-Date: 2023-02-22 06:00\n"
 "Last-Translator: \n"
 "Language-Team: Japanese\n"
 "MIME-Version: 1.0\n"
@@ -471,7 +471,6 @@ msgid "Internet of Things (IoT)"
 msgstr ""
 
 #: ../../content/applications/productivity/iot/config.rst:5
-#: ../../content/applications/productivity/mail_plugins/gmail.rst:6
 #: ../../content/applications/productivity/mail_plugins/outlook.rst:6
 msgid "Configuration"
 msgstr "構成設定"
@@ -605,7 +604,7 @@ msgid "A computer or tablet with an up-to-date web browser"
 msgstr ""
 
 #: ../../content/applications/productivity/iot/config/pos.rst:17
-msgid "A running SaaS or Odoo instance with the Point of Sale and IoT apps installed"
+msgid "A running Odoo Online or Odoo instance with the Point of Sale and IoT apps installed"
 msgstr ""
 
 #: ../../content/applications/productivity/iot/config/pos.rst:20
@@ -649,18 +648,18 @@ msgid "**Scale**: Connect your scale and power it on."
 msgstr ""
 
 #: ../../content/applications/productivity/iot/config/pos.rst:51
-msgid "**Customer Display**: Connect a monitor to the IoT Box using an HDMI cable. You can also access the Customer Display from any other computer by accessing the IoT Box homepage and clicking on the *POS Display* button."
+msgid "**Customer Display**: Connect a screen to the IoT Box to display the PoS order. Please refer to :doc:`/applications/productivity/iot/devices/screen`."
 msgstr ""
 
-#: ../../content/applications/productivity/iot/config/pos.rst:56
+#: ../../content/applications/productivity/iot/config/pos.rst:55
 msgid "**Payment terminal**: The connection process depends on the terminal, please refer to the :doc:`payment terminals documentation </applications/sales/point_of_sale/payment>`."
 msgstr ""
 
-#: ../../content/applications/productivity/iot/config/pos.rst:60
+#: ../../content/applications/productivity/iot/config/pos.rst:59
 msgid "Once it's done, you can connect the IoT Box to your PoS. For this, go in :menuselection:`Point of Sale --> Configuration --> PoS`, tick *IoT Box* and select the devices you want to use in this Point of Sale. Save the changes."
 msgstr ""
 
-#: ../../content/applications/productivity/iot/config/pos.rst:68
+#: ../../content/applications/productivity/iot/config/pos.rst:67
 msgid "Set up is done, you can launch a new PoS Session."
 msgstr ""
 
@@ -820,6 +819,7 @@ msgstr ""
 #: ../../content/applications/productivity/iot/devices/footswitch.rst:13
 #: ../../content/applications/productivity/iot/devices/printer.rst:11
 #: ../../content/applications/productivity/iot/devices/scale.rst:10
+#: ../../content/applications/productivity/iot/devices/screen.rst:18
 msgid "Connection"
 msgstr ""
 
@@ -1096,6 +1096,761 @@ msgstr ""
 msgid "Electronic Scale dashboard view when no items are being weighed."
 msgstr ""
 
+#: ../../content/applications/productivity/iot/devices/screen.rst:3
+msgid "Connect a screen"
+msgstr ""
+
+#: ../../content/applications/productivity/iot/devices/screen.rst:5
+msgid "In Odoo, an :abbr:`IoT (Internet of Things)` Box can be connected to a screen display. After being connected, the screen can be used to display a :abbr:`PoS (Point of Sale)` order to a client."
+msgstr ""
+
+#: ../../content/applications/productivity/iot/devices/screen.rst:None
+msgid "An example of a PoS (point of sale) order on a screen display."
+msgstr ""
+
+#: ../../content/applications/productivity/iot/devices/screen.rst:13
+msgid "Access the customer display from any other computer by going to the :abbr:`IoT (Internet of Things)` Box homepage and clicking on the :guilabel:`POS Display` button."
+msgstr ""
+
+#: ../../content/applications/productivity/iot/devices/screen.rst:20
+msgid "The way to connect the screen display to the :abbr:`IoT (Internet of Things)` Box differs depending on the model."
+msgstr ""
+
+#: ../../content/applications/productivity/iot/devices/screen.rst:25
+msgid "IoT Box model 4"
+msgstr ""
+
+#: ../../content/applications/productivity/iot/devices/screen.rst:27
+msgid "Connect up to two screens with Micro-HDMI cables on the side of the :abbr:`IoT (Internet of Things)` Box. If two screens are connected, they can display distinct content (see usage below)."
+msgstr ""
+
+#: ../../content/applications/productivity/iot/devices/screen.rst:30
+msgid "IoT Box model 3"
+msgstr ""
+
+#: ../../content/applications/productivity/iot/devices/screen.rst:32
+msgid "Connect the screen with an HDMI cable on the side of the :abbr:`IoT (Internet of Things)` Box."
+msgstr ""
+
+#: ../../content/applications/productivity/iot/devices/screen.rst:35
+msgid "Screen(s) should be connected before the :abbr:`IoT (Internet of Things)` Box is switched on. If it is already on, connect the screen(s), and then restart the :abbr:`IoT (Internet of Things)` Box by unplugging it and plugging it back into its power source."
+msgstr ""
+
+#: ../../content/applications/productivity/iot/devices/screen.rst:40
+msgid "The usage of HDMI/Micro-HDMI adapters may cause issues which will result in a blank, black screen on the screen display. Cable usage is recommended."
+msgstr ""
+
+#: ../../content/applications/productivity/iot/devices/screen.rst:43
+msgid "If the connection was successful, the screen should display the :guilabel:`POS Client display` screen."
+msgstr ""
+
+#: ../../content/applications/productivity/iot/devices/screen.rst:None
+msgid "The default \"POS Client Display\" screen that appears when a screen display is successfully\n"
+"connected to an IoT Box."
+msgstr ""
+
+#: ../../content/applications/productivity/iot/devices/screen.rst:51
+msgid "The screen should also appear in the list of :guilabel:`Displays` on the :abbr:`IoT (Internet of Things)` Box homepage."
+msgstr ""
+
+#: ../../content/applications/productivity/iot/devices/screen.rst:None
+msgid "An example of a screen display name shown on the IoT Box homepage."
+msgstr ""
+
+#: ../../content/applications/productivity/iot/devices/screen.rst:59
+msgid "If no screen is detected, a default display named :guilabel:`Distant Display` will be used instead."
+msgstr ""
+
+#: ../../content/applications/productivity/iot/devices/screen.rst:0
+msgid "The \"Distant Display\" screen name will be used if no screen is detected."
+msgstr ""
+
+#: ../../content/applications/productivity/iot/devices/screen.rst:66
+msgid "Usage"
+msgstr ""
+
+#: ../../content/applications/productivity/iot/devices/screen.rst:69
+msgid "Show Point of Sales orders to customers"
+msgstr ""
+
+#: ../../content/applications/productivity/iot/devices/screen.rst:71
+msgid "To use the screen in the :guilabel:`Point of Sale` app, go to :menuselection:`Point of Sale --> Configuration --> Point of Sale`, open the desired screen, click on :guilabel:`Edit`, and enable the :guilabel:`IoT Box Devices` feature."
+msgstr ""
+
+#: ../../content/applications/productivity/iot/devices/screen.rst:75
+msgid "Now, select :guilabel:`IoT Box` in the drop-down menu and choose the screen in the :guilabel:`Customer Display` option. Then, click :guilabel:`Save`."
+msgstr ""
+
+#: ../../content/applications/productivity/iot/devices/screen.rst:0
+msgid "Connect the screen display to the Point of Sale app."
+msgstr ""
+
+#: ../../content/applications/productivity/iot/devices/screen.rst:82
+msgid "The screen is now available for :abbr:`PoS (Point of Sale)` sessions. A \"screen\" icon will appear in the top bar to inform the connection status with the screen."
+msgstr ""
+
+#: ../../content/applications/productivity/iot/devices/screen.rst:0
+msgid "The \"screen\" icon on the Point of Sale display shows the connection status with the screen."
+msgstr ""
+
+#: ../../content/applications/productivity/iot/devices/screen.rst:89
+msgid "The screen will automatically show the :abbr:`PoS (Point of Sale)` orders and update when changes are performed on the order."
+msgstr ""
+
+#: ../../content/applications/productivity/iot/devices/screen.rst:None
+msgid "An example of a PoS order on a screen display."
+msgstr ""
+
+#: ../../content/applications/productivity/iot/devices/screen.rst:97
+msgid "Display a website"
+msgstr ""
+
+#: ../../content/applications/productivity/iot/devices/screen.rst:99
+msgid "Opening the screen form view at :menuselection:`IoT --> Devices --> (screen device)` allows the user to choose a particular website URL to display on the screen with the :guilabel:`Screen URL` field."
+msgstr ""
+
+#: ../../content/applications/productivity/knowledge.rst:7
+#: ../../content/applications/productivity/knowledge/articles_editing.rst:202
+msgid "Knowledge"
+msgstr ""
+
+#: ../../content/applications/productivity/knowledge.rst:9
+msgid "**Odoo Knowledge** is a multipurpose productivity app that allows internal users to enrich their business knowledge base and provide individually or collaboratively gathered information."
+msgstr ""
+
+#: ../../content/applications/productivity/knowledge.rst:12
+msgid "The pages on which they gather content are called *articles*. They are mainly composed of a title and a body. The latter is an HTML field containing text, images, links to other articles, records from other models, templates, etc."
+msgstr ""
+
+#: ../../content/applications/productivity/knowledge.rst:17
+msgid "`Knowledge product page <https://www.odoo.com/app/knowledge>`_"
+msgstr ""
+
+#: ../../content/applications/productivity/knowledge/articles_editing.rst:3
+msgid "Articles editing"
+msgstr ""
+
+#: ../../content/applications/productivity/knowledge/articles_editing.rst:6
+msgid "Add and style content"
+msgstr ""
+
+#: ../../content/applications/productivity/knowledge/articles_editing.rst:8
+msgid "To start adding content, click anywhere on the page. Your cursor is automatically set to write the article's first-level header. Once you are done writing the title, press **enter** on your keyboard to move to the next line."
+msgstr ""
+
+#: ../../content/applications/productivity/knowledge/articles_editing.rst:None
+msgid "knowledge's user interface"
+msgstr ""
+
+#: ../../content/applications/productivity/knowledge/articles_editing.rst:17
+msgid "Click :guilabel:`Untitled` on the left side of the top bar to automatically match your :dfn:`h1 (First-level header)` title and the article's name. To change the name of your article later, you must do it manually. To do so, click the name on the top bar and proceed to the modification."
+msgstr ""
+
+#: ../../content/applications/productivity/knowledge/articles_editing.rst:22
+msgid "Text editor"
+msgstr ""
+
+#: ../../content/applications/productivity/knowledge/articles_editing.rst:24
+msgid "To stylize the text using the text editor, select the text to format."
+msgstr ""
+
+#: ../../content/applications/productivity/knowledge/articles_editing.rst:26
+msgid "Then, you can:"
+msgstr ""
+
+#: ../../content/applications/productivity/knowledge/articles_editing.rst:28
+msgid "Change the style by clicking :guilabel:`Normal`. Doing so opens a dropdown menu with multiple styles to choose from (:guilabel:`Normal, Code, Header 1 → Header 6, Quote`);"
+msgstr ""
+
+#: ../../content/applications/productivity/knowledge/articles_editing.rst:30
+msgid "Format the text. Click :guilabel:`B` to put it in bold, :guilabel:`I` to put it in italic, :guilabel:`U` to underline, and :guilabel:`S` to strikethrough;"
+msgstr ""
+
+#: ../../content/applications/productivity/knowledge/articles_editing.rst:32
+msgid "Change the font color by clicking :guilabel:`A` or the background color by clicking the **pencil** icon:"
+msgstr ""
+
+#: ../../content/applications/productivity/knowledge/articles_editing.rst:35
+msgid "To choose from a predefined theme color, click :guilabel:`Theme` and select the desired color."
+msgstr ""
+
+#: ../../content/applications/productivity/knowledge/articles_editing.rst:36
+msgid "To customize, click :guilabel:`Solid` and define a color using the wheel, by typing its hex code, or its RGBA values."
+msgstr ""
+
+#: ../../content/applications/productivity/knowledge/articles_editing.rst:38
+msgid "To use a gradient, click :guilabel:`Gradient`, choose a predefined gradient or click :guilabel:`Custom` to create a personalized gradient."
+msgstr ""
+
+#: ../../content/applications/productivity/knowledge/articles_editing.rst:41
+msgid "To change the text's size, click the **size number** and select the desired size;"
+msgstr ""
+
+#: ../../content/applications/productivity/knowledge/articles_editing.rst:42
+msgid "Click the **lists** icons to turn the paragraph into an unordered list, an ordered list, or a checklist;"
+msgstr ""
+
+#: ../../content/applications/productivity/knowledge/articles_editing.rst:44
+msgid "Click the **chain** icon to insert or edit an URL link."
+msgstr ""
+
+#: ../../content/applications/productivity/knowledge/articles_editing.rst:None
+msgid "Text editor's toolbox"
+msgstr ""
+
+#: ../../content/applications/productivity/knowledge/articles_editing.rst:50
+msgid "To format a whole paragraph, type `/` anywhere in the text. Doing so opens the **powerbox**, which allows:"
+msgstr ""
+
+#: ../../content/applications/productivity/knowledge/articles_editing.rst:53
+msgid "Changing a paragraph into lists (unordered, ordered, checklists)."
+msgstr ""
+
+#: ../../content/applications/productivity/knowledge/articles_editing.rst:54
+msgid "Changing a paragraph into a header (1 → 6), normal text, `code`, or *quotes*."
+msgstr ""
+
+#: ../../content/applications/productivity/knowledge/articles_editing.rst:57
+msgid "Add a cover"
+msgstr ""
+
+#: ../../content/applications/productivity/knowledge/articles_editing.rst:59
+msgid "You can customize your article by adding a cover picture and an icon. Hover above the h1 title and click :guilabel:`Add Cover`. A pop-up window opens to set a cover picture."
+msgstr ""
+
+#: ../../content/applications/productivity/knowledge/articles_editing.rst:62
+msgid "If your database and your Unsplash account are associated, the cover picture is automatically selected based on the article's name. To modify it, hover over the picture to make the buttons appear, click :guilabel:`Change Cover`, and select another image."
+msgstr ""
+
+#: ../../content/applications/productivity/knowledge/articles_editing.rst:66
+msgid "Retrieve images from different sources:"
+msgstr ""
+
+#: ../../content/applications/productivity/knowledge/articles_editing.rst:68
+msgid "Search the **Unsplash** database."
+msgstr ""
+
+#: ../../content/applications/productivity/knowledge/articles_editing.rst:69
+msgid "Enter a picture's **URL**."
+msgstr ""
+
+#: ../../content/applications/productivity/knowledge/articles_editing.rst:70
+msgid "**Upload** an image from a computer."
+msgstr ""
+
+#: ../../content/applications/productivity/knowledge/articles_editing.rst:72
+msgid "To remove the cover, hover over it to make the buttons appear and click :guilabel:`Remove Cover`."
+msgstr ""
+
+#: ../../content/applications/productivity/knowledge/articles_editing.rst:75
+msgid "To associate Unsplash with your database, please refer to :doc:`../../websites/website/optimize/unsplash`."
+msgstr ""
+
+#: ../../content/applications/productivity/knowledge/articles_editing.rst:77
+msgid "The articles are responsive, and so are the cover pictures. As a result, the images cannot be repositioned manually to fit a particular screen, as they automatically resize depending on the device."
+msgstr ""
+
+#: ../../content/applications/productivity/knowledge/articles_editing.rst:82
+msgid "Add an icon"
+msgstr ""
+
+#: ../../content/applications/productivity/knowledge/articles_editing.rst:84
+msgid "To add an icon, hover above the h1 title and click :guilabel:`Add Icon`. Doing this sets a random emoji automatically. To change it, click it and select one from the emoji window. To remove it, proceed equally and click the red-circled :guilabel:`x`."
+msgstr ""
+
+#: ../../content/applications/productivity/knowledge/articles_editing.rst:89
+msgid "The emoji is also displayed before the corresponding article in the side panel hierarchic tree."
+msgstr ""
+
+#: ../../content/applications/productivity/knowledge/articles_editing.rst:90
+msgid "Click the emoji on the side panel to change it without opening the related article."
+msgstr ""
+
+#: ../../content/applications/productivity/knowledge/articles_editing.rst:93
+msgid "Commands"
+msgstr ""
+
+#: ../../content/applications/productivity/knowledge/articles_editing.rst:95
+msgid "To use a command, type `/` and open the **powerbox**. Type the command's name or select from multiple features to insert blocks, images, files, etc. Some of them, such as `/Image` or `/Article` are common to all the apps, but others are inherent to the knowledge app and cannot be found or used in any other application."
+msgstr ""
+
+#: ../../content/applications/productivity/knowledge/articles_editing.rst:101
+msgid "List of commands"
+msgstr ""
+
+#: ../../content/applications/productivity/knowledge/articles_editing.rst:103
+msgid "Commands are divided into multiple categories depending on their use."
+msgstr ""
+
+#: ../../content/applications/productivity/knowledge/articles_editing.rst:106
+msgid "Structure"
+msgstr ""
+
+#: ../../content/applications/productivity/knowledge/articles_editing.rst:113
+#: ../../content/applications/productivity/knowledge/articles_editing.rst:143
+#: ../../content/applications/productivity/knowledge/articles_editing.rst:163
+#: ../../content/applications/productivity/knowledge/articles_editing.rst:177
+#: ../../content/applications/productivity/knowledge/articles_editing.rst:195
+#: ../../content/applications/productivity/knowledge/articles_editing.rst:209
+#: ../../content/applications/productivity/knowledge/articles_editing.rst:234
+msgid "Command"
+msgstr ""
+
+#: ../../content/applications/productivity/knowledge/articles_editing.rst:114
+#: ../../content/applications/productivity/knowledge/articles_editing.rst:144
+#: ../../content/applications/productivity/knowledge/articles_editing.rst:164
+#: ../../content/applications/productivity/knowledge/articles_editing.rst:178
+#: ../../content/applications/productivity/knowledge/articles_editing.rst:196
+#: ../../content/applications/productivity/knowledge/articles_editing.rst:210
+#: ../../content/applications/productivity/knowledge/articles_editing.rst:235
+msgid "Use"
+msgstr ""
+
+#: ../../content/applications/productivity/knowledge/articles_editing.rst:115
+msgid ":guilabel:`Bulleted list`"
+msgstr ""
+
+#: ../../content/applications/productivity/knowledge/articles_editing.rst:116
+msgid "Create a bulleted list."
+msgstr ""
+
+#: ../../content/applications/productivity/knowledge/articles_editing.rst:117
+msgid ":guilabel:`Numbered list`"
+msgstr ""
+
+#: ../../content/applications/productivity/knowledge/articles_editing.rst:118
+msgid "Create a list with numbering."
+msgstr ""
+
+#: ../../content/applications/productivity/knowledge/articles_editing.rst:119
+msgid ":guilabel:`Checklist`"
+msgstr ""
+
+#: ../../content/applications/productivity/knowledge/articles_editing.rst:120
+msgid "Track tasks with a checklist."
+msgstr ""
+
+#: ../../content/applications/productivity/knowledge/articles_editing.rst:121
+msgid ":guilabel:`Table`"
+msgstr ""
+
+#: ../../content/applications/productivity/knowledge/articles_editing.rst:122
+msgid "Insert a table."
+msgstr ""
+
+#: ../../content/applications/productivity/knowledge/articles_editing.rst:123
+msgid ":guilabel:`Separator`"
+msgstr ""
+
+#: ../../content/applications/productivity/knowledge/articles_editing.rst:124
+msgid "Insert an horizontal rule separator."
+msgstr ""
+
+#: ../../content/applications/productivity/knowledge/articles_editing.rst:125
+msgid ":guilabel:`Quote`"
+msgstr ""
+
+#: ../../content/applications/productivity/knowledge/articles_editing.rst:126
+msgid "Add a blockquote section."
+msgstr ""
+
+#: ../../content/applications/productivity/knowledge/articles_editing.rst:127
+msgid ":guilabel:`Code`"
+msgstr ""
+
+#: ../../content/applications/productivity/knowledge/articles_editing.rst:128
+msgid "Add a code section."
+msgstr ""
+
+#: ../../content/applications/productivity/knowledge/articles_editing.rst:129
+msgid ":guilabel:`2 columns`"
+msgstr ""
+
+#: ../../content/applications/productivity/knowledge/articles_editing.rst:130
+msgid "Convert into 2 columns."
+msgstr ""
+
+#: ../../content/applications/productivity/knowledge/articles_editing.rst:131
+msgid ":guilabel:`3 columns`"
+msgstr ""
+
+#: ../../content/applications/productivity/knowledge/articles_editing.rst:132
+msgid "Convert into 3 columns."
+msgstr ""
+
+#: ../../content/applications/productivity/knowledge/articles_editing.rst:133
+msgid ":guilabel:`4 columns`"
+msgstr ""
+
+#: ../../content/applications/productivity/knowledge/articles_editing.rst:134
+msgid "Convert into 4 columns."
+msgstr ""
+
+#: ../../content/applications/productivity/knowledge/articles_editing.rst:136
+msgid "Format"
+msgstr ""
+
+#: ../../content/applications/productivity/knowledge/articles_editing.rst:145
+msgid ":guilabel:`Heading 1`"
+msgstr ""
+
+#: ../../content/applications/productivity/knowledge/articles_editing.rst:146
+msgid "Big section heading."
+msgstr ""
+
+#: ../../content/applications/productivity/knowledge/articles_editing.rst:147
+msgid ":guilabel:`Heading 2`"
+msgstr ""
+
+#: ../../content/applications/productivity/knowledge/articles_editing.rst:148
+msgid "Medium section heading."
+msgstr ""
+
+#: ../../content/applications/productivity/knowledge/articles_editing.rst:149
+msgid ":guilabel:`Heading 3`"
+msgstr ""
+
+#: ../../content/applications/productivity/knowledge/articles_editing.rst:150
+msgid "Small section heading."
+msgstr ""
+
+#: ../../content/applications/productivity/knowledge/articles_editing.rst:151
+msgid ":guilabel:`Switch direction`"
+msgstr ""
+
+#: ../../content/applications/productivity/knowledge/articles_editing.rst:152
+msgid "Switch the text's direction."
+msgstr ""
+
+#: ../../content/applications/productivity/knowledge/articles_editing.rst:153
+#: ../../content/applications/productivity/knowledge/properties.rst:34
+msgid ":guilabel:`Text`"
+msgstr ""
+
+#: ../../content/applications/productivity/knowledge/articles_editing.rst:154
+msgid "Paragraph block."
+msgstr ""
+
+#: ../../content/applications/productivity/knowledge/articles_editing.rst:156
+msgid "Media"
+msgstr ""
+
+#: ../../content/applications/productivity/knowledge/articles_editing.rst:165
+msgid ":guilabel:`Image`"
+msgstr ""
+
+#: ../../content/applications/productivity/knowledge/articles_editing.rst:166
+msgid "Insert an image."
+msgstr ""
+
+#: ../../content/applications/productivity/knowledge/articles_editing.rst:167
+msgid ":guilabel:`Article`"
+msgstr ""
+
+#: ../../content/applications/productivity/knowledge/articles_editing.rst:168
+msgid "Link an article."
+msgstr ""
+
+#: ../../content/applications/productivity/knowledge/articles_editing.rst:170
+msgid "Navigation"
+msgstr ""
+
+#: ../../content/applications/productivity/knowledge/articles_editing.rst:179
+msgid ":guilabel:`Link`"
+msgstr ""
+
+#: ../../content/applications/productivity/knowledge/articles_editing.rst:180
+msgid "Add a link."
+msgstr ""
+
+#: ../../content/applications/productivity/knowledge/articles_editing.rst:181
+msgid ":guilabel:`Button`"
+msgstr ""
+
+#: ../../content/applications/productivity/knowledge/articles_editing.rst:182
+msgid "Add a button."
+msgstr ""
+
+#: ../../content/applications/productivity/knowledge/articles_editing.rst:183
+msgid ":guilabel:`Appointment`"
+msgstr ""
+
+#: ../../content/applications/productivity/knowledge/articles_editing.rst:184
+msgid "Add a specific appointment."
+msgstr ""
+
+#: ../../content/applications/productivity/knowledge/articles_editing.rst:185
+msgid ":guilabel:`Calendar`"
+msgstr ""
+
+#: ../../content/applications/productivity/knowledge/articles_editing.rst:186
+msgid "Schedule an appointment."
+msgstr ""
+
+#: ../../content/applications/productivity/knowledge/articles_editing.rst:188
+msgid "Widget"
+msgstr ""
+
+#: ../../content/applications/productivity/knowledge/articles_editing.rst:197
+msgid ":guilabel:`3 Stars`"
+msgstr ""
+
+#: ../../content/applications/productivity/knowledge/articles_editing.rst:198
+msgid "Insert a rating over 3 stars."
+msgstr ""
+
+#: ../../content/applications/productivity/knowledge/articles_editing.rst:199
+msgid ":guilabel:`5 Stars`"
+msgstr ""
+
+#: ../../content/applications/productivity/knowledge/articles_editing.rst:200
+msgid "Insert a rating over 5 stars."
+msgstr ""
+
+#: ../../content/applications/productivity/knowledge/articles_editing.rst:211
+msgid ":guilabel:`Table of Content`"
+msgstr ""
+
+#: ../../content/applications/productivity/knowledge/articles_editing.rst:212
+msgid "Add a table of content with the article's headings."
+msgstr ""
+
+#: ../../content/applications/productivity/knowledge/articles_editing.rst:213
+msgid ":guilabel:`Index`"
+msgstr ""
+
+#: ../../content/applications/productivity/knowledge/articles_editing.rst:214
+msgid "Show the first level of nested articles."
+msgstr ""
+
+#: ../../content/applications/productivity/knowledge/articles_editing.rst:215
+msgid ":guilabel:`Outline`"
+msgstr ""
+
+#: ../../content/applications/productivity/knowledge/articles_editing.rst:216
+msgid "Show all nested articles."
+msgstr ""
+
+#: ../../content/applications/productivity/knowledge/articles_editing.rst:217
+msgid ":guilabel:`Item Kanban`"
+msgstr ""
+
+#: ../../content/applications/productivity/knowledge/articles_editing.rst:218
+msgid "Insert a kanban view of article items."
+msgstr ""
+
+#: ../../content/applications/productivity/knowledge/articles_editing.rst:219
+msgid ":guilabel:`Item List`"
+msgstr ""
+
+#: ../../content/applications/productivity/knowledge/articles_editing.rst:220
+msgid "Insert a list view of article items."
+msgstr ""
+
+#: ../../content/applications/productivity/knowledge/articles_editing.rst:221
+msgid ":guilabel:`File`"
+msgstr ""
+
+#: ../../content/applications/productivity/knowledge/articles_editing.rst:222
+msgid "Embed a file that can be downloaded."
+msgstr ""
+
+#: ../../content/applications/productivity/knowledge/articles_editing.rst:223
+msgid ":guilabel:`Template`"
+msgstr ""
+
+#: ../../content/applications/productivity/knowledge/articles_editing.rst:224
+msgid "Add a template section that can be inserted in messages, terms & conditions, or description in other applications."
+msgstr ""
+
+#: ../../content/applications/productivity/knowledge/articles_editing.rst:227
+msgid "Basic Blocks"
+msgstr ""
+
+#: ../../content/applications/productivity/knowledge/articles_editing.rst:236
+msgid ":guilabel:`Signature`"
+msgstr ""
+
+#: ../../content/applications/productivity/knowledge/articles_editing.rst:237
+msgid "Insert your signature."
+msgstr ""
+
+#: ../../content/applications/productivity/knowledge/articles_editing.rst:240
+msgid "Content from other app"
+msgstr ""
+
+#: ../../content/applications/productivity/knowledge/articles_editing.rst:242
+msgid "Knowledge allows to retrieve content views from other applications. To do so, go to the targeted app and create the desired view. Then, click :menuselection:`Favorite --> Insert view in article` and select an article. The view is inserted at the bottom of the selected article."
+msgstr ""
+
+#: ../../content/applications/productivity/knowledge/articles_editing.rst:247
+msgid "To retrieve the view below, we created it by going to :menuselection:`Sales --> Graph icon --> Pie Chart icon` and inserted it by clicking :menuselection:`Favorite --> Insert view in article` and selecting the *Sales Playbook* article."
+msgstr ""
+
+#: ../../content/applications/productivity/knowledge/articles_editing.rst:0
+msgid "article view from the Sales app"
+msgstr ""
+
+#: ../../content/applications/productivity/knowledge/articles_editing.rst:256
+msgid "Users who do **not** have access to the view will **not** be able to access it in **Knowledge** even though they have access to the article containing the view."
+msgstr ""
+
+#: ../../content/applications/productivity/knowledge/properties.rst:3
+#: ../../content/applications/productivity/studio/fields.rst:453
+msgid "Properties"
+msgstr ""
+
+#: ../../content/applications/productivity/knowledge/properties.rst:5
+msgid "Properties are fields containing data and that can be added to articles by any user with **write** access. These fields are shared between all the child articles and article items under the same parent."
+msgstr ""
+
+#: ../../content/applications/productivity/knowledge/properties.rst:10
+msgid "To be able to add properties, an article must be either a **child article** or an **article item**."
+msgstr ""
+
+#: ../../content/applications/productivity/knowledge/properties.rst:14
+msgid "Add property fields"
+msgstr ""
+
+#: ../../content/applications/productivity/knowledge/properties.rst:16
+msgid "Hover above the first-level header to make the buttons appear. Click :menuselection:`⚙ Add Properties --> Field Type`, select the type and add a default value if needed. To make the fields appear in **kanban views**, check :guilabel:`View in Kanban` as well. To validate and close the property creation window, click anywhere."
+msgstr ""
+
+#: ../../content/applications/productivity/knowledge/properties.rst:None
+msgid "Dropdown of property fields types"
+msgstr ""
+
+#: ../../content/applications/productivity/knowledge/properties.rst:25
+msgid "The different types assess what the field content can be:"
+msgstr ""
+
+#: ../../content/applications/productivity/knowledge/properties.rst:32
+#: ../../content/applications/productivity/knowledge/properties.rst:58
+msgid "Types"
+msgstr ""
+
+#: ../../content/applications/productivity/knowledge/properties.rst:33
+#: ../../content/applications/productivity/knowledge/properties.rst:59
+msgid "Uses"
+msgstr ""
+
+#: ../../content/applications/productivity/knowledge/properties.rst:35
+msgid "Allows adding any content with no restriction."
+msgstr ""
+
+#: ../../content/applications/productivity/knowledge/properties.rst:36
+msgid ":guilabel:`Checkbox`"
+msgstr ""
+
+#: ../../content/applications/productivity/knowledge/properties.rst:37
+msgid "Add a checkbox."
+msgstr ""
+
+#: ../../content/applications/productivity/knowledge/properties.rst:38
+msgid ":guilabel:`Integer`"
+msgstr ""
+
+#: ../../content/applications/productivity/knowledge/properties.rst:39
+msgid "Allows adding integer numbers."
+msgstr ""
+
+#: ../../content/applications/productivity/knowledge/properties.rst:40
+msgid ":guilabel:`Decimal`"
+msgstr ""
+
+#: ../../content/applications/productivity/knowledge/properties.rst:41
+msgid "Allows adding any number."
+msgstr ""
+
+#: ../../content/applications/productivity/knowledge/properties.rst:42
+msgid ":guilabel:`Date`"
+msgstr ""
+
+#: ../../content/applications/productivity/knowledge/properties.rst:43
+msgid "Allows selecting a date."
+msgstr ""
+
+#: ../../content/applications/productivity/knowledge/properties.rst:44
+msgid ":guilabel:`Date & Time`"
+msgstr ""
+
+#: ../../content/applications/productivity/knowledge/properties.rst:45
+msgid "Allows selecting a date and time."
+msgstr ""
+
+#: ../../content/applications/productivity/knowledge/properties.rst:47
+msgid "Some **field types** need to be configured:"
+msgstr ""
+
+#: ../../content/applications/productivity/knowledge/properties.rst:None
+msgid "property configuration form"
+msgstr ""
+
+#: ../../content/applications/productivity/knowledge/properties.rst:60
+msgid ":guilabel:`Selection`"
+msgstr ""
+
+#: ../../content/applications/productivity/knowledge/properties.rst:61
+msgid "Add a drop-down selection menu with restricted values that have been set at the property creation."
+msgstr ""
+
+#: ../../content/applications/productivity/knowledge/properties.rst:64
+msgid "To set it up, click :guilabel:`Add a Value` next to the :guilabel:`Values` field. Enter predetermined values and press **enter** to validate; you can enter as many values as needed. Click anywhere to close the property creation window."
+msgstr ""
+
+#: ../../content/applications/productivity/knowledge/properties.rst:67
+msgid ":guilabel:`Tags`"
+msgstr ""
+
+#: ../../content/applications/productivity/knowledge/properties.rst:68
+msgid "Allows creating and applying as many tags as needed."
+msgstr ""
+
+#: ../../content/applications/productivity/knowledge/properties.rst:70
+msgid "To set it up, enter your `new_tag` in the :guilabel:`Tags` field, and press **enter** or click :guilabel:`Create \"new_tag\"`. Click anywhere to close the window. Then, add the tags into the property field. To do so, click the property field and choose from the created tags; enter the tags' name and press **enter**; enter a new tag's name and create a new one on the spot."
+msgstr ""
+
+#: ../../content/applications/productivity/knowledge/properties.rst:75
+msgid ":guilabel:`Many2one`"
+msgstr ""
+
+#: ../../content/applications/productivity/knowledge/properties.rst:76
+msgid "Choose from a list of records that result from a model's domain. You can only select one result."
+msgstr ""
+
+#: ../../content/applications/productivity/knowledge/properties.rst:79
+#: ../../content/applications/productivity/knowledge/properties.rst:86
+msgid "To set it up, click :guilabel:`Search a Model` in the :guilabel:`Model` field, select the model. Match all records by clicking :guilabel:`## Record(s)`, or filter the results by clicking :guilabel:`+ Add Filter` and show the records by clicking :guilabel:`## Record(s)`."
+msgstr ""
+
+#: ../../content/applications/productivity/knowledge/properties.rst:82
+msgid ":guilabel:`Many2many`"
+msgstr ""
+
+#: ../../content/applications/productivity/knowledge/properties.rst:83
+msgid "Choose from a list of records that result from a model's domain. You can select as many results as needed."
+msgstr ""
+
+#: ../../content/applications/productivity/knowledge/properties.rst:91
+msgid "Delete property fields"
+msgstr ""
+
+#: ../../content/applications/productivity/knowledge/properties.rst:93
+msgid "To remove a property, click the **pencil** icon next to the targeted property, then click :menuselection:`Delete --> Delete`."
+msgstr ""
+
+#: ../../content/applications/productivity/knowledge/properties.rst:97
+msgid "Once a property field is deleted, you cannot retrieve it."
+msgstr ""
+
+#: ../../content/applications/productivity/knowledge/properties.rst:100
+msgid "Hide the property panel"
+msgstr ""
+
+#: ../../content/applications/productivity/knowledge/properties.rst:102
+msgid "To hide the property sidebar panel, click the gear :guilabel:`(⚙)` button."
+msgstr ""
+
 #: ../../content/applications/productivity/mail_plugins.rst:5
 msgid "Mail Plugins"
 msgstr ""
@@ -1172,120 +1927,146 @@ msgstr ""
 msgid "Gmail Plugin"
 msgstr ""
 
-#: ../../content/applications/productivity/mail_plugins/gmail.rst:8
-msgid "The Gmail :doc:`Mail Plugin <../mail_plugins>` needs to be configured both on Odoo and Gmail."
+#: ../../content/applications/productivity/mail_plugins/gmail.rst:5
+msgid "The *Gmail Plugin* integrates an Odoo database with a Gmail inbox, so users can keep track of all their work between Gmail and Odoo, without losing any information."
 msgstr ""
 
-#: ../../content/applications/productivity/mail_plugins/gmail.rst:13
-#: ../../content/applications/productivity/mail_plugins/outlook.rst:13
-msgid "Enable Mail Plugin"
+#: ../../content/applications/productivity/mail_plugins/gmail.rst:9
+msgid "Odoo Online users"
+msgstr ""
+
+#: ../../content/applications/productivity/mail_plugins/gmail.rst:11
+msgid "For databases hosted on Odoo Online (or Odoo.sh), follow the steps below to configure the Gmail Plugin."
 msgstr ""
 
 #: ../../content/applications/productivity/mail_plugins/gmail.rst:15
-#: ../../content/applications/productivity/mail_plugins/outlook.rst:15
-msgid "First, you need to enable the *Mail Plugin* feature in your database. Go to :menuselection:`Settings --> General Settings --> Integrations`, enable *Mail Plugin*, and *Save* the configuration."
-msgstr ""
-
-#: ../../content/applications/productivity/mail_plugins/gmail.rst:21
+#: ../../content/applications/productivity/mail_plugins/gmail.rst:94
 msgid "Install the Gmail Plugin"
 msgstr ""
 
-#: ../../content/applications/productivity/mail_plugins/gmail.rst:23
-msgid "Open the `Gmail Plugin Apps Script project <https://script.google.com/d/1n7cxtaR4fGXKcP0RwinNQmL8S4FhVqpo-ZZ_cUAhYuuDpZAP_CnHE_7q/edit>`_."
+#: ../../content/applications/productivity/mail_plugins/gmail.rst:17
+msgid "First, log in to the Gmail account that the user wishes to connect to Odoo."
+msgstr ""
+
+#: ../../content/applications/productivity/mail_plugins/gmail.rst:19
+msgid "From the Gmail inbox, click the plus sign icon on the right side panel to get add-ons. If the side panel is not visible, click on the arrow icon at the bottom right corner of the inbox to reveal it."
+msgstr ""
+
+#: ../../content/applications/productivity/mail_plugins/gmail.rst:None
+msgid "Plus sign icon on the Gmail inbox side panel."
 msgstr ""
 
 #: ../../content/applications/productivity/mail_plugins/gmail.rst:26
-msgid "Verify you are logged in using the Google account you want to install the plugin on."
+msgid "Then, use the search bar to search for `Odoo` and locate the :guilabel:`Odoo Inbox Addin`."
 msgstr ""
 
-#: ../../content/applications/productivity/mail_plugins/gmail.rst:28
-msgid "Click on *Publish* then *Deploy from manifest...*"
+#: ../../content/applications/productivity/mail_plugins/gmail.rst:None
+msgid "Odoo Inbox Addin on Google Workspace Marketplace."
 msgstr ""
 
-#: ../../content/applications/productivity/mail_plugins/gmail.rst:0
-msgid "Deploying from manifest the Gmail Plugin from the Apps Script project"
+#: ../../content/applications/productivity/mail_plugins/gmail.rst:32
+msgid "Or, go directly to the :guilabel:`Odoo Inbox Addin` page on the `Google Workspace Marketplace <https://workspace.google.com/marketplace/app/odoo_inbox_addin/873497133275>`_."
 msgstr ""
 
 #: ../../content/applications/productivity/mail_plugins/gmail.rst:35
-msgid "Make sure you are using the legacy editor; otherwise the *Deploy from manifest* functionality may not be available."
+msgid "Once the plugin is located, click :guilabel:`Install`. Then, click :guilabel:`Continue` to start the installation."
 msgstr ""
 
-#: ../../content/applications/productivity/mail_plugins/gmail.rst:0
-msgid "Using the legacy editor in the Gmail Plugin Apps Script project"
+#: ../../content/applications/productivity/mail_plugins/gmail.rst:38
+msgid "Next, select which Gmail account the user wishes to connect to Odoo. Then click :guilabel:`Allow` to let Odoo access the Google account. Google will then show a pop-up window confirming that the installation was successful."
 msgstr ""
 
-#: ../../content/applications/productivity/mail_plugins/gmail.rst:42
-msgid "Click on *Install add-on*. A \"Deployment installed\" notification should appear. You can then click on *Close*."
+#: ../../content/applications/productivity/mail_plugins/gmail.rst:43
+#: ../../content/applications/productivity/mail_plugins/gmail.rst:131
+msgid "Configure the Odoo database"
 msgstr ""
 
-#: ../../content/applications/productivity/mail_plugins/gmail.rst:0
-msgid "Installing the Gmail Plugin from the Apps Script project"
+#: ../../content/applications/productivity/mail_plugins/gmail.rst:45
+#: ../../content/applications/productivity/mail_plugins/gmail.rst:133
+msgid "The :guilabel:`Mail Plugin` feature must be enabled in the Odoo database in order to use the Gmail Plugin. To enable the feature, go to :menuselection:`Settings --> General Settings`. Under the :guilabel:`Integrations` section, activate :guilabel:`Mail Plugin`, and then click :guilabel:`Save`."
 msgstr ""
 
-#: ../../content/applications/productivity/mail_plugins/gmail.rst:52
-msgid "Configure your Gmail mailbox"
+#: ../../content/applications/productivity/mail_plugins/gmail.rst:None
+#: ../../content/applications/productivity/mail_plugins/gmail.rst:None
+msgid "The Mail Plugin feature in the Settings."
 msgstr ""
 
-#: ../../content/applications/productivity/mail_plugins/gmail.rst:54
-msgid "Open any email in your Gmail mailbox. On the right-side panel, click on the Odoo icon and then *Authorize Access*."
+#: ../../content/applications/productivity/mail_plugins/gmail.rst:55
+#: ../../content/applications/productivity/mail_plugins/gmail.rst:143
+msgid "Configure the Gmail inbox"
 msgstr ""
 
-#: ../../content/applications/productivity/mail_plugins/gmail.rst:0
-msgid "Authorizing access to the Gmail Plugin"
+#: ../../content/applications/productivity/mail_plugins/gmail.rst:57
+#: ../../content/applications/productivity/mail_plugins/gmail.rst:145
+msgid "In the Gmail inbox, a purple Odoo icon is now visible on the right side panel. Click on the Odoo icon to open up the Odoo plugin window. Then, click on any email in the inbox. Click :guilabel:`Authorize Access` in the plugin window to grant Odoo access to the Gmail inbox."
 msgstr ""
 
-#: ../../content/applications/productivity/mail_plugins/gmail.rst:61
-msgid "Choose the right Google account."
+#: ../../content/applications/productivity/mail_plugins/gmail.rst:None
+#: ../../content/applications/productivity/mail_plugins/gmail.rst:None
+msgid "The Authorize Access button in the right sidebar of the Odoo plugin panel."
 msgstr ""
 
-#: ../../content/applications/productivity/mail_plugins/gmail.rst:0
-msgid "Choosing your Google account"
+#: ../../content/applications/productivity/mail_plugins/gmail.rst:65
+#: ../../content/applications/productivity/mail_plugins/gmail.rst:153
+msgid "Next, click :guilabel:`Login`. Then, enter the URL of the Odoo database that the user wishes to connect to the Gmail inbox, and log in to the database."
 msgstr ""
 
-#: ../../content/applications/productivity/mail_plugins/gmail.rst:67
-msgid "Allow the Gmail Plugin to access some of your data."
-msgstr ""
-
-#: ../../content/applications/productivity/mail_plugins/gmail.rst:0
-msgid "Allowing the Gmail Plugin to access Google data"
+#: ../../content/applications/productivity/mail_plugins/gmail.rst:69
+#: ../../content/applications/productivity/mail_plugins/gmail.rst:157
+msgid "Use the general URL for the database, not the URL of a specific page in the database. For example, use `https://mycompany.odoo.com`, not `https://mycompany.odoo.com/web#cids=1&action=menu`."
 msgstr ""
 
 #: ../../content/applications/productivity/mail_plugins/gmail.rst:73
-#: ../../content/applications/productivity/mail_plugins/outlook.rst:68
-msgid "The right-side panel can now display **Company Insights**. At the bottom, click on *Login*."
+#: ../../content/applications/productivity/mail_plugins/gmail.rst:161
+msgid "Finally, click :guilabel:`Allow` to let Gmail access the Odoo database. The browser will then show a :guilabel:`Success!` message. After that, close the window. The Gmail inbox and Odoo database are now connected."
 msgstr ""
 
-#: ../../content/applications/productivity/mail_plugins/gmail.rst:0
-#: ../../content/applications/productivity/mail_plugins/outlook.rst:0
-msgid "Logging in your Odoo database"
+#: ../../content/applications/productivity/mail_plugins/gmail.rst:78
+msgid "Odoo On-Premise users"
 msgstr ""
 
 #: ../../content/applications/productivity/mail_plugins/gmail.rst:80
-#: ../../content/applications/productivity/mail_plugins/outlook.rst:75
-msgid "Only a limited amount of *Company Insights* (*Lead Enrichment*) requests are available as a trial. This feature requires :ref:`prepaid credits <mail_plugins/pricing>`."
+msgid "For databases hosted on servers other than Odoo Online (or Odoo.sh), follow the steps below to configure the Gmail Plugin."
 msgstr ""
 
-#: ../../content/applications/productivity/mail_plugins/gmail.rst:83
-#: ../../content/applications/productivity/mail_plugins/outlook.rst:93
-msgid "Enter your Odoo database URL and click on *Login*."
-msgstr ""
-
-#: ../../content/applications/productivity/mail_plugins/gmail.rst:0
-#: ../../content/applications/productivity/mail_plugins/outlook.rst:0
-msgid "Entering your Odoo database URL"
+#: ../../content/applications/productivity/mail_plugins/gmail.rst:84
+msgid "As part of their security guidelines, Google requires add-on creators to provide a list of URLs that can be used in actions and redirections launched by the add-on. This protects users by ensuring, for example, that no add-on redirects users toward a malicious website. (Read more on `Google Apps Script <https://developers.google.com/apps-script/manifest/allowlist-url>`_.)"
 msgstr ""
 
 #: ../../content/applications/productivity/mail_plugins/gmail.rst:89
-#: ../../content/applications/productivity/mail_plugins/outlook.rst:105
-msgid "If you aren't logged into your database, enter your credentials."
+msgid "Since Odoo can only list the `odoo.com` domain and not every on-premise customer's unique server domain, on-premise customers cannot install the Gmail Plugin from the Google Workspace Marketplace."
 msgstr ""
 
-#: ../../content/applications/productivity/mail_plugins/gmail.rst:91
-msgid "Click on *Allow* to let the Gmail Plugin connect to your database."
+#: ../../content/applications/productivity/mail_plugins/gmail.rst:96
+msgid "First, access the `GitHub repository <https://github.com/odoo/mail-client-extensions>`_ for the Odoo Mail Plugins. Next, click on the green :guilabel:`Code` button. Then, click :guilabel:`Download ZIP` to download the Mail Plugin files onto the user's computer."
 msgstr ""
 
-#: ../../content/applications/productivity/mail_plugins/gmail.rst:0
-msgid "Allowing the Gmail Plugin to connect to a database"
+#: ../../content/applications/productivity/mail_plugins/gmail.rst:None
+msgid "Download the ZIP file from the Odoo GitHub repository for Mail Plugins."
+msgstr ""
+
+#: ../../content/applications/productivity/mail_plugins/gmail.rst:104
+msgid "Open the ZIP file on the computer. Then, go to :menuselection:`mail-client-extensions-master --> gmail --> src --> views`, and open the :file:`login.ts` file using any text editor software, such as Notepad (Windows), TextEdit (Mac), or Visual Studio Code."
+msgstr ""
+
+#: ../../content/applications/productivity/mail_plugins/gmail.rst:108
+msgid "Delete the following three lines of text from the :file:`login.ts` file:"
+msgstr ""
+
+#: ../../content/applications/productivity/mail_plugins/gmail.rst:116
+msgid "This removes the `odoo.com` domain constraint from the Gmail Plugin program."
+msgstr ""
+
+#: ../../content/applications/productivity/mail_plugins/gmail.rst:118
+msgid "Next, in the ZIP file, go to :menuselection:`mail-client-extensions-master --> gmail`, and open the file called :guilabel:`README`. Follow the instructions in the :guilabel:`README` file to push the Gmail Plugin files as a Google Project."
+msgstr ""
+
+#: ../../content/applications/productivity/mail_plugins/gmail.rst:123
+msgid "The computer must be able to run Linux commands in order to follow the instructions on the :guilabel:`README` file."
+msgstr ""
+
+#: ../../content/applications/productivity/mail_plugins/gmail.rst:126
+msgid "After that, share the Google Project with the Gmail account that the user wishes to connect to Odoo. Then, click :guilabel:`Publish` and :guilabel:`Deploy from manifest`. Lastly, click :guilabel:`Install the add-on` to install the Gmail Plugin."
 msgstr ""
 
 #: ../../content/applications/productivity/mail_plugins/outlook.rst:3
@@ -1294,6 +2075,14 @@ msgstr ""
 
 #: ../../content/applications/productivity/mail_plugins/outlook.rst:8
 msgid "The Outlook :doc:`Mail Plugin <../mail_plugins>` needs to be configured both on Odoo and Outlook."
+msgstr ""
+
+#: ../../content/applications/productivity/mail_plugins/outlook.rst:13
+msgid "Enable Mail Plugin"
+msgstr ""
+
+#: ../../content/applications/productivity/mail_plugins/outlook.rst:15
+msgid "First, you need to enable the *Mail Plugin* feature in your database. Go to :menuselection:`Settings --> General Settings --> Integrations`, enable *Mail Plugin*, and *Save* the configuration."
 msgstr ""
 
 #: ../../content/applications/productivity/mail_plugins/outlook.rst:21
@@ -1329,7 +2118,7 @@ msgid "Custom add-ins in Outlook"
 msgstr ""
 
 #: ../../content/applications/productivity/mail_plugins/outlook.rst:43
-msgid "Enter the following URL `https://download.odoo.com/plugins/outlook/manifest.xml` and press *OK*."
+msgid "Enter the following URL `https://download.odoocdn.com/plugins/v15/outlook/manifest.xml` and press *OK*."
 msgstr ""
 
 #: ../../content/applications/productivity/mail_plugins/outlook.rst:0
@@ -1356,6 +2145,18 @@ msgstr ""
 msgid "Odoo for Outlook add-in button"
 msgstr ""
 
+#: ../../content/applications/productivity/mail_plugins/outlook.rst:68
+msgid "The right-side panel can now display **Company Insights**. At the bottom, click on *Login*."
+msgstr ""
+
+#: ../../content/applications/productivity/mail_plugins/outlook.rst:0
+msgid "Logging in your Odoo database"
+msgstr ""
+
+#: ../../content/applications/productivity/mail_plugins/outlook.rst:75
+msgid "Only a limited amount of *Company Insights* (*Lead Enrichment*) requests are available as a trial. This feature requires :ref:`prepaid credits <mail_plugins/pricing>`."
+msgstr ""
+
 #: ../../content/applications/productivity/mail_plugins/outlook.rst:79
 msgid "If, after a short while, the panel is still empty, it is possible that your browser cookie settings prevented it from loading. Note that these settings also change if you are in \"Incognito\" mode on your browser."
 msgstr ""
@@ -1372,12 +2173,24 @@ msgstr ""
 msgid "Once done, the Outlook panel needs to be opened again."
 msgstr ""
 
+#: ../../content/applications/productivity/mail_plugins/outlook.rst:93
+msgid "Enter your Odoo database URL and click on *Login*."
+msgstr ""
+
+#: ../../content/applications/productivity/mail_plugins/outlook.rst:0
+msgid "Entering your Odoo database URL"
+msgstr ""
+
 #: ../../content/applications/productivity/mail_plugins/outlook.rst:99
 msgid "Click on *Allow* to open the pop-up window."
 msgstr ""
 
 #: ../../content/applications/productivity/mail_plugins/outlook.rst:0
 msgid "New window pop-up warning"
+msgstr ""
+
+#: ../../content/applications/productivity/mail_plugins/outlook.rst:105
+msgid "If you aren't logged into your database, enter your credentials."
 msgstr ""
 
 #: ../../content/applications/productivity/mail_plugins/outlook.rst:107
@@ -1421,43 +2234,43 @@ msgstr ""
 msgid "Studio"
 msgstr ""
 
-#: ../../content/applications/productivity/studio.rst:16
+#: ../../content/applications/productivity/studio.rst:17
 msgid "Studio is a toolbox that allows you to customize Odoo without coding knowledge. For example, you can, on any app, add or modify:"
 msgstr ""
 
-#: ../../content/applications/productivity/studio.rst:19
+#: ../../content/applications/productivity/studio.rst:20
 msgid ":doc:`Fields <studio/fields>`"
 msgstr ""
 
-#: ../../content/applications/productivity/studio.rst:20
+#: ../../content/applications/productivity/studio.rst:21
 msgid ":doc:`Views <studio/views>`"
 msgstr ""
 
-#: ../../content/applications/productivity/studio.rst:21
+#: ../../content/applications/productivity/studio.rst:22
 msgid ":doc:`Models <studio/models_modules_apps>`"
 msgstr ""
 
-#: ../../content/applications/productivity/studio.rst:22
+#: ../../content/applications/productivity/studio.rst:23
 msgid ":doc:`Automated actions <studio/automated_actions>`"
 msgstr ""
 
-#: ../../content/applications/productivity/studio.rst:23
-msgid "PDF reports"
-msgstr ""
-
 #: ../../content/applications/productivity/studio.rst:24
-msgid "Approval rules"
+msgid ":doc:`PDF reports <studio/pdf_reports>`"
 msgstr ""
 
 #: ../../content/applications/productivity/studio.rst:25
+msgid "Approval rules"
+msgstr ""
+
+#: ../../content/applications/productivity/studio.rst:26
 msgid "Security rules"
 msgstr ""
 
-#: ../../content/applications/productivity/studio.rst:27
+#: ../../content/applications/productivity/studio.rst:28
 msgid "Or you can :doc:`build an app from scratch <studio/models_modules_apps>`."
 msgstr ""
 
-#: ../../content/applications/productivity/studio.rst:30
+#: ../../content/applications/productivity/studio.rst:31
 msgid "`Odoo Tutorials: Studio <https://www.odoo.com/slides/studio-31>`_"
 msgstr ""
 
@@ -2174,10 +2987,6 @@ msgstr ""
 msgid "To display the email address of a customer on the *Sales Order* model, use the :guilabel:`Related Field` `partner_id.email` by selecting :guilabel:`Customer` and then :guilabel:`Email`."
 msgstr ""
 
-#: ../../content/applications/productivity/studio/fields.rst:453
-msgid "Properties"
-msgstr ""
-
 #: ../../content/applications/productivity/studio/fields.rst:455
 msgid ":guilabel:`Invisible`: When it is not necessary for users to view a field on the UI, tick :guilabel:`Invisible`. It helps clear the UI by only showing the essential fields depending on a specific situation."
 msgstr ""
@@ -2428,6 +3237,432 @@ msgstr ""
 
 #: ../../content/applications/productivity/studio/models_modules_apps.rst:225
 msgid "Before importing, make sure the destination database contains the same apps and modules as the source database. Studio does not add the underlying modules as dependencies of the exported module."
+msgstr ""
+
+#: ../../content/applications/productivity/studio/pdf_reports.rst:3
+msgid "PDF reports"
+msgstr ""
+
+#: ../../content/applications/productivity/studio/pdf_reports.rst:5
+msgid "With Studio, you can edit existing PDF reports (e.g., orders and quotations) or create new ones."
+msgstr ""
+
+#: ../../content/applications/productivity/studio/pdf_reports.rst:10
+msgid "Default layout"
+msgstr ""
+
+#: ../../content/applications/productivity/studio/pdf_reports.rst:12
+msgid "The default layout of reports is managed outside Studio. Go to :menuselection:`Settings --> Companies: Document Layout --> Configure Document Layout`. Layout settings apply to all reports but only to the current company."
+msgstr ""
+
+#: ../../content/applications/productivity/studio/pdf_reports.rst:17
+msgid "Use :guilabel:`Download PDF Preview` to view how the different settings affect the layout of a sample invoice."
+msgstr ""
+
+#: ../../content/applications/productivity/studio/pdf_reports.rst:23
+msgid "Layout"
+msgstr ""
+
+#: ../../content/applications/productivity/studio/pdf_reports.rst:25
+msgid "Four layouts are available."
+msgstr ""
+
+#: ../../content/applications/productivity/studio/pdf_reports.rst:29
+msgid "Light"
+msgstr ""
+
+#: ../../content/applications/productivity/studio/pdf_reports.rst:0
+msgid "Light report layout sample"
+msgstr ""
+
+#: ../../content/applications/productivity/studio/pdf_reports.rst:35
+msgid "Boxed"
+msgstr ""
+
+#: ../../content/applications/productivity/studio/pdf_reports.rst:0
+msgid "Boxed report layout sample"
+msgstr ""
+
+#: ../../content/applications/productivity/studio/pdf_reports.rst:41
+msgid "Bold"
+msgstr ""
+
+#: ../../content/applications/productivity/studio/pdf_reports.rst:0
+msgid "Bold report layout sample"
+msgstr ""
+
+#: ../../content/applications/productivity/studio/pdf_reports.rst:47
+msgid "Striped"
+msgstr ""
+
+#: ../../content/applications/productivity/studio/pdf_reports.rst:0
+msgid "Striped report layout sample"
+msgstr ""
+
+#: ../../content/applications/productivity/studio/pdf_reports.rst:56
+msgid "Font"
+msgstr ""
+
+#: ../../content/applications/productivity/studio/pdf_reports.rst:58
+msgid "Seven fonts are available. Click on the links below to preview them on `Google Fonts <https://fonts.google.com/>`_."
+msgstr ""
+
+#: ../../content/applications/productivity/studio/pdf_reports.rst:61
+msgid "`Lato <https://fonts.google.com/specimen/Lato#type-tester>`_"
+msgstr ""
+
+#: ../../content/applications/productivity/studio/pdf_reports.rst:62
+msgid "`Roboto <https://fonts.google.com/specimen/Roboto#type-tester>`_"
+msgstr ""
+
+#: ../../content/applications/productivity/studio/pdf_reports.rst:63
+msgid "`Open Sans <https://fonts.google.com/specimen/Open+Sans#type-tester>`_"
+msgstr ""
+
+#: ../../content/applications/productivity/studio/pdf_reports.rst:64
+msgid "`Montserrat <https://fonts.google.com/specimen/Montserrat#type-tester>`_"
+msgstr ""
+
+#: ../../content/applications/productivity/studio/pdf_reports.rst:65
+msgid "`Oswald <https://fonts.google.com/specimen/Oswald#type-tester>`_"
+msgstr ""
+
+#: ../../content/applications/productivity/studio/pdf_reports.rst:66
+msgid "`Raleway <https://fonts.google.com/specimen/Raleway#type-tester>`_"
+msgstr ""
+
+#: ../../content/applications/productivity/studio/pdf_reports.rst:67
+msgid "`Tajawal <https://fonts.google.com/specimen/Tajawal#type-tester>`_"
+msgstr ""
+
+#: ../../content/applications/productivity/studio/pdf_reports.rst:70
+msgid ":guilabel:`Tajawal` supports both Arabic and Latin scripts."
+msgstr ""
+
+#: ../../content/applications/productivity/studio/pdf_reports.rst:75
+msgid "Company logo"
+msgstr ""
+
+#: ../../content/applications/productivity/studio/pdf_reports.rst:77
+msgid "Upload an image file to add a :guilabel:`Company Logo`."
+msgstr ""
+
+#: ../../content/applications/productivity/studio/pdf_reports.rst:80
+msgid "This adds the logo to the company’s record on the *Company* model, which you can access by going to :menuselection:`General Settings --> Companies --> Update Info`."
+msgstr ""
+
+#: ../../content/applications/productivity/studio/pdf_reports.rst:86
+msgid "Colors"
+msgstr ""
+
+#: ../../content/applications/productivity/studio/pdf_reports.rst:88
+msgid "Change the primary and secondary colors used throughout reports to highlight important elements. The default colors are automatically generated based on the colors of the logo."
+msgstr ""
+
+#: ../../content/applications/productivity/studio/pdf_reports.rst:94
+msgid "Layout background"
+msgstr ""
+
+#: ../../content/applications/productivity/studio/pdf_reports.rst:96
+msgid "Change the :guilabel:`Layout Background` of the report:"
+msgstr ""
+
+#: ../../content/applications/productivity/studio/pdf_reports.rst:98
+msgid ":guilabel:`Blank`: nothing is displayed."
+msgstr ""
+
+#: ../../content/applications/productivity/studio/pdf_reports.rst:99
+msgid ":guilabel:`Geometric`: an image featuring geometric shapes is displayed in the background."
+msgstr ""
+
+#: ../../content/applications/productivity/studio/pdf_reports.rst:100
+msgid ":guilabel:`Custom`: use a custom background image by uploading one."
+msgstr ""
+
+#: ../../content/applications/productivity/studio/pdf_reports.rst:105
+msgid "Company tagline"
+msgstr ""
+
+#: ../../content/applications/productivity/studio/pdf_reports.rst:107
+msgid "The :guilabel:`Company Tagline` is displayed on the header of :ref:`External reports <studio/pdf-reports/header-footer/external>`. You can add multiple lines of text."
+msgstr ""
+
+#: ../../content/applications/productivity/studio/pdf_reports.rst:113
+msgid "Company details"
+msgstr ""
+
+#: ../../content/applications/productivity/studio/pdf_reports.rst:115
+msgid "The :guilabel:`Company Details` are displayed on the header of :ref:`External reports <studio/pdf-reports/header-footer/external>`. You can add multiple lines of text."
+msgstr ""
+
+#: ../../content/applications/productivity/studio/pdf_reports.rst:121
+msgid "Footer"
+msgstr ""
+
+#: ../../content/applications/productivity/studio/pdf_reports.rst:123
+msgid "Use the :guilabel:`Footer` field to put any text in the :ref:`External reports' <studio/pdf-reports/header-footer/external>` footers. You can add multiple lines of text."
+msgstr ""
+
+#: ../../content/applications/productivity/studio/pdf_reports.rst:129
+msgid "Paper format"
+msgstr ""
+
+#: ../../content/applications/productivity/studio/pdf_reports.rst:131
+msgid "Use the :guilabel:`Paper format` field to change the paper size of reports. You can either select :guilabel:`A4` (21 cm x 29.7 cm) or :guilabel:`US Letter` (21.59 cm x 27.54 cm)."
+msgstr ""
+
+#: ../../content/applications/productivity/studio/pdf_reports.rst:135
+msgid "You can change the :guilabel:`Paper format` on individual reports. Open the app containing the report, then :menuselection:`Toggle Studio --> Reports --> Select or Create a report --> Report --> Select a Paper format`."
+msgstr ""
+
+#: ../../content/applications/productivity/studio/pdf_reports.rst:None
+msgid "Configuration pop-up window for the default layout of PDF reports"
+msgstr ""
+
+#: ../../content/applications/productivity/studio/pdf_reports.rst:146
+msgid "Header and footer"
+msgstr ""
+
+#: ../../content/applications/productivity/studio/pdf_reports.rst:148
+msgid "When creating a new report in Studio, you must choose between one of three styles of reports first. This is solely used to determine what is displayed on the header and footer. To do so, go to the app on which you want to add a new report, then :menuselection:`Studio button --> Reports --> Create` and select :ref:`studio/pdf-reports/header-footer/external`, :ref:`studio/pdf-reports/header-footer/internal`, or :ref:`studio/pdf-reports/header-footer/blank`."
+msgstr ""
+
+#: ../../content/applications/productivity/studio/pdf_reports.rst:157
+msgid "External"
+msgstr ""
+
+#: ../../content/applications/productivity/studio/pdf_reports.rst:159
+msgid "The header displays the company :ref:`studio/pdf-reports/default-layout/logo` and several values set on the *Company* model: the :guilabel:`Company Name`, :guilabel:`Phone`, :guilabel:`Email`, and :guilabel:`Website`."
+msgstr ""
+
+#: ../../content/applications/productivity/studio/pdf_reports.rst:164
+msgid "To change a company's information, go to :menuselection:`Settings --> Companies --> Update Info`."
+msgstr ""
+
+#: ../../content/applications/productivity/studio/pdf_reports.rst:None
+msgid "Example of an External header"
+msgstr ""
+
+#: ../../content/applications/productivity/studio/pdf_reports.rst:170
+msgid "The footer displays the values set on the :ref:`studio/pdf-reports/default-layout/footer`, :ref:`studio/pdf-reports/default-layout/details`, and :ref:`studio/pdf-reports/default-layout/tagline` fields, as well as the page number."
+msgstr ""
+
+#: ../../content/applications/productivity/studio/pdf_reports.rst:None
+msgid "Example of an External footer"
+msgstr ""
+
+#: ../../content/applications/productivity/studio/pdf_reports.rst:181
+msgid "Internal"
+msgstr ""
+
+#: ../../content/applications/productivity/studio/pdf_reports.rst:183
+msgid "The header displays the user's current date and time, :guilabel:`Company Name`, and page number."
+msgstr ""
+
+#: ../../content/applications/productivity/studio/pdf_reports.rst:185
+msgid "There is no footer."
+msgstr ""
+
+#: ../../content/applications/productivity/studio/pdf_reports.rst:190
+msgid "Blank"
+msgstr ""
+
+#: ../../content/applications/productivity/studio/pdf_reports.rst:192
+msgid "There is neither a header nor a footer."
+msgstr ""
+
+#: ../../content/applications/productivity/studio/pdf_reports.rst:197
+msgid "Add tab"
+msgstr ""
+
+#: ../../content/applications/productivity/studio/pdf_reports.rst:199
+msgid "After opening an existing report or creating a new one, go to the :guilabel:`Add` tab to add or edit elements. The elements are organized into four categories: :ref:`studio/pdf-reports/elements/block`, :ref:`studio/pdf-reports/elements/inline`, :ref:`studio/pdf-reports/elements/table`, and :ref:`studio/pdf-reports/elements/column`."
+msgstr ""
+
+#: ../../content/applications/productivity/studio/pdf_reports.rst:207
+msgid "Block"
+msgstr ""
+
+#: ../../content/applications/productivity/studio/pdf_reports.rst:209
+msgid "Block elements start on a new line and occupy the full width of the page."
+msgstr ""
+
+#: ../../content/applications/productivity/studio/pdf_reports.rst:212
+msgid "You can set an element's width by selecting it and going to the :guilabel:`Options` tab."
+msgstr ""
+
+#: ../../content/applications/productivity/studio/pdf_reports.rst:214
+#: ../../content/applications/productivity/studio/pdf_reports.rst:244
+msgid ":guilabel:`Text`: add any text using small font size by default."
+msgstr ""
+
+#: ../../content/applications/productivity/studio/pdf_reports.rst:216
+msgid ":guilabel:`Title Block`: add any text using larger font size by default."
+msgstr ""
+
+#: ../../content/applications/productivity/studio/pdf_reports.rst:218
+msgid ":guilabel:`Image`: add an image. You can either upload one from your device, add one from an URL, or select one already existing on your database."
+msgstr ""
+
+#: ../../content/applications/productivity/studio/pdf_reports.rst:221
+#: ../../content/applications/productivity/studio/pdf_reports.rst:246
+msgid ":guilabel:`Field`: dynamically add a field's value."
+msgstr ""
+
+#: ../../content/applications/productivity/studio/pdf_reports.rst:223
+msgid ":guilabel:`Field & Label`: to dynamically add a field's value and label."
+msgstr ""
+
+#: ../../content/applications/productivity/studio/pdf_reports.rst:225
+msgid ":guilabel:`Address Block`: to dynamically add the values, if any, of a contact's (`res.partner` model): *Name*, *Address*, *Phone*, *Mobile*, and *Email*."
+msgstr ""
+
+#: ../../content/applications/productivity/studio/pdf_reports.rst:0
+msgid "Example of an Address Block"
+msgstr ""
+
+#: ../../content/applications/productivity/studio/pdf_reports.rst:235
+msgid "Inline"
+msgstr ""
+
+#: ../../content/applications/productivity/studio/pdf_reports.rst:237
+msgid "Inline elements are used around other elements. They do not start on a new line and the width adapts to length of the content."
+msgstr ""
+
+#: ../../content/applications/productivity/studio/pdf_reports.rst:241
+msgid "You can set an element's width and margins by selecting it and going to the :guilabel:`Options` tab."
+msgstr ""
+
+#: ../../content/applications/productivity/studio/pdf_reports.rst:251
+msgid "Table"
+msgstr ""
+
+#: ../../content/applications/productivity/studio/pdf_reports.rst:253
+msgid "Table elements are used together to create a data table."
+msgstr ""
+
+#: ../../content/applications/productivity/studio/pdf_reports.rst:255
+msgid ":guilabel:`Data table`: create a table and dynamically add a first column displaying the *Name* values of a :ref:`Many2Many <studio/fields/relational-fields/many2many>` or :ref:`One2Many <studio/fields/relational-fields/one2many>` field on your model."
+msgstr ""
+
+#: ../../content/applications/productivity/studio/pdf_reports.rst:0
+msgid "Example of a Data table"
+msgstr ""
+
+#: ../../content/applications/productivity/studio/pdf_reports.rst:263
+msgid ":guilabel:`Field Column`: add a new column to the table displaying the values of a :ref:`Related Field <studio/fields/relational-fields/related-field>` to the one used to create the :guilabel:`Data table`."
+msgstr ""
+
+#: ../../content/applications/productivity/studio/pdf_reports.rst:267
+msgid ":guilabel:`Text in Cell`: add any text within an existing table cell."
+msgstr ""
+
+#: ../../content/applications/productivity/studio/pdf_reports.rst:269
+msgid ":guilabel:`Field in Cell`: add, within an existing table cell, the values of a :ref:`Related Field <studio/fields/relational-fields/related-field>` to the one used to create the :guilabel:`Data table`."
+msgstr ""
+
+#: ../../content/applications/productivity/studio/pdf_reports.rst:273
+msgid ":guilabel:`Subtotal & Total`: add an existing :guilabel:`Total` field's value. If a :guilabel:`Taxes` field exists, the untaxed and taxes amounts are added before the total amount."
+msgstr ""
+
+#: ../../content/applications/productivity/studio/pdf_reports.rst:279
+msgid "Column"
+msgstr ""
+
+#: ../../content/applications/productivity/studio/pdf_reports.rst:281
+msgid "Columns are used to add multiple :ref:`blocks <studio/pdf-reports/elements/block>` elements on the same line."
+msgstr ""
+
+#: ../../content/applications/productivity/studio/pdf_reports.rst:284
+msgid ":guilabel:`Two Columns`: add any text in two different columns."
+msgstr ""
+
+#: ../../content/applications/productivity/studio/pdf_reports.rst:286
+msgid ":guilabel:`Three Columns`: add any text in three different columns."
+msgstr ""
+
+#: ../../content/applications/productivity/studio/pdf_reports.rst:289
+msgid "Report tab"
+msgstr ""
+
+#: ../../content/applications/productivity/studio/pdf_reports.rst:291
+msgid "Several configuration options are available under the :guilabel:`Report` tab."
+msgstr ""
+
+#: ../../content/applications/productivity/studio/pdf_reports.rst:293
+msgid ":guilabel:`Name`: change the report name. The new name is applied everywhere (in Studio, under the :guilabel:`Print` button, and for the PDF file name)."
+msgstr ""
+
+#: ../../content/applications/productivity/studio/pdf_reports.rst:296
+msgid ":guilabel:`Paper format`: change the paper size of the report."
+msgstr ""
+
+#: ../../content/applications/productivity/studio/pdf_reports.rst:298
+msgid ":guilabel:`Add in print`: add the report under the :guilabel:`🖶 Print` button available on the record."
+msgstr ""
+
+#: ../../content/applications/productivity/studio/pdf_reports.rst:301
+msgid ":guilabel:`Limit visibility to groups`: limit the availability of the PDF report to specific :doc:`user groups <../../general/users/access_rights>`."
+msgstr ""
+
+#: ../../content/applications/productivity/studio/pdf_reports.rst:305
+msgid "Options tab"
+msgstr ""
+
+#: ../../content/applications/productivity/studio/pdf_reports.rst:307
+msgid "Select an element on the report to access the element's options and edit it."
+msgstr ""
+
+#: ../../content/applications/productivity/studio/pdf_reports.rst:None
+msgid "The Options tab for a text element"
+msgstr ""
+
+#: ../../content/applications/productivity/studio/pdf_reports.rst:314
+msgid "You can select and edit multiple elements at the same time by clicking on the different sections or divisions (e.g., `div`, `table`, etc.)."
+msgstr ""
+
+#: ../../content/applications/productivity/studio/pdf_reports.rst:317
+msgid "Below are presented some of the most common options:"
+msgstr ""
+
+#: ../../content/applications/productivity/studio/pdf_reports.rst:319
+msgid ":guilabel:`Margins`: add spacing at the :guilabel:`top`, :guilabel:`right`, :guilabel:`bottom`, and :guilabel:`left` of the element."
+msgstr ""
+
+#: ../../content/applications/productivity/studio/pdf_reports.rst:322
+msgid ":guilabel:`Width`: set the element's maximum width."
+msgstr ""
+
+#: ../../content/applications/productivity/studio/pdf_reports.rst:324
+msgid ":guilabel:`Visible if`: set under which condition(s) the element should be displayed."
+msgstr ""
+
+#: ../../content/applications/productivity/studio/pdf_reports.rst:326
+msgid ":guilabel:`Visible for`: set for which :doc:`users groups <../../general/users/access_rights>` the element should be displayed."
+msgstr ""
+
+#: ../../content/applications/productivity/studio/pdf_reports.rst:329
+msgid ":guilabel:`Remove from View`: remove the element from the report's view."
+msgstr ""
+
+#: ../../content/applications/productivity/studio/pdf_reports.rst:331
+msgid ":guilabel:`Text decoration`: bold, italicize, and underline the font."
+msgstr ""
+
+#: ../../content/applications/productivity/studio/pdf_reports.rst:333
+msgid ":guilabel:`Alignment`: align the element to the left, center, or right of the report."
+msgstr ""
+
+#: ../../content/applications/productivity/studio/pdf_reports.rst:335
+msgid ":guilabel:`Font style`: use one of the default font styles."
+msgstr ""
+
+#: ../../content/applications/productivity/studio/pdf_reports.rst:337
+msgid ":guilabel:`Colors`: change the font's color and the background color."
+msgstr ""
+
+#: ../../content/applications/productivity/studio/pdf_reports.rst:340
+msgid "You may need to select a section or division above the element you want to edit to see some of the options described above."
 msgstr ""
 
 #: ../../content/applications/productivity/studio/views.rst:3
