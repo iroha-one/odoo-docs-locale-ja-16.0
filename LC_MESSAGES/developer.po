@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: odoo-docs-locale-ja-160\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-09-24 02:58+0000\n"
-"PO-Revision-Date: 2022-09-25 11:46\n"
+"PO-Revision-Date: 2023-02-22 03:02\n"
 "Last-Translator: \n"
 "Language-Team: Japanese\n"
 "MIME-Version: 1.0\n"
@@ -5330,39 +5330,39 @@ msgstr "Odooには2つのバージョンがあります（ `two versions`_ ）�
 
 #: ../../content/developer/howtos/rdtraining/01_architecture.rst:125
 msgid "Ready to start? Before writing actual code, let's go to the :doc:`next chapter <02_setup>` to review the Odoo installation process. Even if Odoo is already running on your system, we strongly suggest you go through this chapter to make sure we start on the same page during the development of our new application."
-msgstr ""
+msgstr "始める準備はできましたか？実際のコードを書く前に、 :doc:`次の章 <02_setup>`に行き、Odoo のインストールプロセスを確認しましょう。 Odooがすでにシステム上で実行されている場合でも、新しいアプリケーションの開発中に同様なページが起動するように、この章を一読することを強くお勧めします。"
 
 #: ../../content/developer/howtos/rdtraining/02_setup.rst:3
 msgid "Chapter 2: Development environment setup"
-msgstr ""
+msgstr "第2章：開発環境のセットアップ"
 
 #: ../../content/developer/howtos/rdtraining/02_setup.rst:5
 msgid "Depending on the intended use case, there are multiple ways to install Odoo. This tutorial will stick to the :ref:`source install <setup/install/source>` (:dfn:`running Odoo from the source code`), which is best suited for Odoo developers."
-msgstr ""
+msgstr "用途により、Odoo のインストール方法は複数あります。 このチュートリアルは :ref:`source install <setup/install/source>` (:dfn:`ソースコード から Odoo を実行`) に基づいており、Odoo開発者に最適な環境です。"
 
 #: ../../content/developer/howtos/rdtraining/02_setup.rst:9
 msgid "Throughout this document, we assume that you are installing your development environment on a laptop provided by Odoo with Linux Mint installed and up-to-date. If that is not the case, switch to the :guilabel:`Windows` or :guilabel:`Mac OS` tab if any section of the installation guide, depending on which OS you are on. The steps remain essentially the same."
-msgstr ""
+msgstr "このドキュメントにおいて、Linux Mint がインストールされているパソコンにOdoo が提供する開発環境がインストールされていることを前提としています。Linuxではない場合、インストールガイドが提示されているれば、:guilabel:`Windows` または :guilabel:`Mac OS` タブに切り替えてください。ステップは、どのOSを使用しているかによって異なりますが、本質的に同様です。"
 
 #: ../../content/developer/howtos/rdtraining/02_setup.rst:15
 msgid "Set up Git"
-msgstr ""
+msgstr "Git の設定"
 
 #: ../../content/developer/howtos/rdtraining/02_setup.rst:18
 msgid "Install and configure Git"
-msgstr ""
+msgstr "Git のインストールと設定"
 
 #: ../../content/developer/howtos/rdtraining/02_setup.rst:20
 msgid "The very first step of the installation process is to install the `Git version control system <https://git-scm.com/>`_ because the Odoo source code is managed on `GitHub <https://github.com/>`_."
-msgstr ""
+msgstr "インストールプロセスの最初のステップは、`Git バージョン管理システム <https://git-scm.com/>`_ です。というのも、Odoo ソースコードは `GitHub <https://github.com/>`_ で管理されているからです。"
 
 #: ../../content/developer/howtos/rdtraining/02_setup.rst:28
 msgid "Check if Git is installed by trying to print Git's version with the following command:"
-msgstr ""
+msgstr "Gitがインストールされている場合は、次のコマンドでGitのバージョンを確認します。"
 
 #: ../../content/developer/howtos/rdtraining/02_setup.rst:34
 msgid "Once installed, register your name and email:"
-msgstr ""
+msgstr "インストールが完了したら、名前とメールアドレスを設定してください。"
 
 #: ../../content/developer/howtos/rdtraining/02_setup.rst:42
 msgid "Configure GitHub"
@@ -5370,43 +5370,43 @@ msgstr "GitHubの設定"
 
 #: ../../content/developer/howtos/rdtraining/02_setup.rst:44
 msgid "You need a GitHub account to fetch the sources and contribute to Odoo's development. If you don't have one yet, create it. For the username, we recommend using your trigram \"xyz\" (or quadrigam) followed by '-odoo': 'xyz-odoo'."
-msgstr ""
+msgstr "ソースコードを取得し、Odooの開発に貢献するにはGitHubアカウントが必要です。まだお持ちでない場合は作成してください。 ユーザー名については、名前を表す３文字略語の「xyz」(または４文字略語) の後に「-odoo」を付与して、「xyz-odoo」のようにすることをお勧めします。"
 
 #: ../../content/developer/howtos/rdtraining/02_setup.rst:48
 msgid "The easiest way to authenticate with GitHub is to use an SSH connection. Using SSH authentication allows you to connect to GitHub without supplying your username and password every time you type a command."
-msgstr ""
+msgstr "GitHub で認証する最も簡単な方法は、SSH 接続を使用することです。 コマンドを入力するたびにユーザー名とパスワードを入力しなくても、SSH認証が行われGitHubに接続できます。"
 
 #: ../../content/developer/howtos/rdtraining/02_setup.rst:53
 msgid "The following step-by-step procedure is based based on the `official GitHub documentation <https://docs.github.com/en/authentication/connecting-to-github-with-ssh>`_."
-msgstr ""
+msgstr "次のステップバイステップの手順は、 `GitHub 公式ドキュメント <https://docs.github.com/en/authentication/connecting-to-github-with-ssh>`_ に基づいています。"
 
 #: ../../content/developer/howtos/rdtraining/02_setup.rst:56
 msgid "Generate a new SSH key, add it to the ssh-agent, and copy the SSH key to your clipboard."
-msgstr ""
+msgstr "新しい SSH キーを生成し、ssh-agent に追加するとともに、SSH キーをクリップボードにコピーします。"
 
 #: ../../content/developer/howtos/rdtraining/02_setup.rst:65
 msgid "Go to `GitHub.com <https://github.com/>`_, then click on your profile picture in the upper-right corner of the page and then on :guilabel:`Settings`."
-msgstr ""
+msgstr "`GitHub.com <https://github.com/>`_ に移動し、ページの右上隅にあるプロフィール画像をクリックして、 :guilabel:`Settings` をクリックします。"
 
 #: ../../content/developer/howtos/rdtraining/02_setup.rst:70
 msgid "On the user settings sidebar, click on :guilabel:`SSH and GPG keys`."
-msgstr ""
+msgstr "ユーザー設定のサイドバーで、 :guilabel:`SSH and GPG keys` をクリックします。"
 
 #: ../../content/developer/howtos/rdtraining/02_setup.rst:74
 msgid "Click on :guilabel:`New SSH key` or on :guilabel:`Add SSH key`."
-msgstr ""
+msgstr ":guilabel:`New SSH key` または :guilabel:`Add SSH key` をクリックします。"
 
 #: ../../content/developer/howtos/rdtraining/02_setup.rst:78
 msgid "In the :guilabel:`Title` field, add a descriptive label for the new key."
-msgstr ""
+msgstr ":guilabel:`Title` フィールドに、新しいキーの説明ラベルを入力します。"
 
 #: ../../content/developer/howtos/rdtraining/02_setup.rst:79
 msgid "Paste your key into the :guilabel:`Key` field."
-msgstr ""
+msgstr "キーを :guilabel:`Key` フィールドに貼り付けます。"
 
 #: ../../content/developer/howtos/rdtraining/02_setup.rst:83
 msgid "Click on :guilabel:`Add SSH key`."
-msgstr ""
+msgstr ":guilabel:`Add SSH key` をクリックします。"
 
 #: ../../content/developer/howtos/rdtraining/02_setup.rst:86
 msgid "Fetch the sources"
@@ -5414,31 +5414,31 @@ msgstr "ソースコードの取得"
 
 #: ../../content/developer/howtos/rdtraining/02_setup.rst:88
 msgid "It is time to fetch the source code of Odoo. First, let's create a home for the Git repositories in :file:`$HOME/src/`."
-msgstr ""
+msgstr "Odoo のソースコードを取得できるようになりました。まず、 :file:`$HOME/src/` にGitリポジトリのホームを作成しましょう。"
 
 #: ../../content/developer/howtos/rdtraining/02_setup.rst:96
 msgid "Then, clone the two repositories with SSH as explained in the :ref:`Installing Odoo guide <setup/install/source/git>`."
-msgstr ""
+msgstr "次に、 :ref:`Obooのインストールガイド <setup/install/source/git>` で説明されているように、SSHで2つのリポジトリをクローンします。"
 
 #: ../../content/developer/howtos/rdtraining/02_setup.rst:100
 msgid "Cloning the repositories will take a while, enjoy a cup of coffee while you wait."
-msgstr "リポジトリのクローン作成にはしばらく時間がかかりますので、コーヒーでも飲みながらお待ちください。"
+msgstr "リポジトリのクローン作成にはしばらく時間がかかりますので、コーヒーでも飲みながら待ちましょう。"
 
 #: ../../content/developer/howtos/rdtraining/02_setup.rst:105
 msgid "Configure the Git repositories"
-msgstr ""
+msgstr "Git リポジトリの構成"
 
 #: ../../content/developer/howtos/rdtraining/02_setup.rst:107
 msgid "To contribute to an Odoo repository, you first need to `fork it <https://docs.github.com/en/get-started/quickstart/contributing-to-projects>`_, then create a branch containing your changes on the fork, and finally submit a `Pull Request <https://docs.github.com/en/get-started/quickstart/github-glossary#pull-request>`_ to the repository."
-msgstr ""
+msgstr "Odooのリポジトリに貢献するには、まず `リポジトリをフォークし <https://docs.github.com/en/get-started/quickstart/contributing-to-projects>`_ 、その上であなたの変更を含むブランチを作成し、最後にそのリポジトリに `Pull Request <https://docs.github.com/en/get-started/quickstart/github-glossary#pull-request>`_ を提出してください。"
 
 #: ../../content/developer/howtos/rdtraining/02_setup.rst:114
 msgid "If you are lucky enough to work at Odoo, the forks already exist. They are hosted on https://github.com/odoo-dev/odoo and https://github.com/odoo-dev/enterprise."
-msgstr ""
+msgstr "もしOdooで働く幸運な人なら、フォークはすでに存在しています。 https://github.com/odoo-dev/odoo と https://github.com/odoo-dev/enterprise でホストされています。"
 
 #: ../../content/developer/howtos/rdtraining/02_setup.rst:117
 msgid "After your two forks are created, their remote address can be added in your local repositories. In the commands below, replace `odoo-dev/odoo` and `odoo-dev/enterprise` with the name of your forks if needed."
-msgstr ""
+msgstr "2つのフォークが作成されると、リモートアドレスをローカルリポジトリに追加できます。 必要に応じて、次のコマンドの `odoo-dev/odoo` と `odoo-dev/enterprise` とをご自分のフォーク名を置き換えてください。"
 
 #: ../../content/developer/howtos/rdtraining/02_setup.rst:134
 msgid "Install the dependencies"
@@ -5446,7 +5446,7 @@ msgstr "依存関係のインストール"
 
 #: ../../content/developer/howtos/rdtraining/02_setup.rst:136
 msgid "As seen in :ref:`howto/rdtraining/01_architecture`, Odoo's server runs on Python and uses PostgreSQL as an RDBMS. In the context of a development machine, the easiest approach is to install everything locally. To do so, follow once again the :ref:`Installing Odoo guide <setup/install/source/prepare>`."
-msgstr ""
+msgstr ":ref:`howto/rdtraining/01_architecture` で述べたように、OdooのサーバーはPythonで動作し、RDBMSとしてPostgreSQLを使用します。開発マシンの場合、最も簡単な方法は、すべてをローカルにインストールすることです。これを行うには、 :ref:`Odooのインストールガイド <setup/install/source/prepare>` を再確認してください。"
 
 #: ../../content/developer/howtos/rdtraining/02_setup.rst:142
 msgid "Some useful SQL commands:"
