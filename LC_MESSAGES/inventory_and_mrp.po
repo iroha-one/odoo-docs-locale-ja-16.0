@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: odoo-docs-locale-ja-160\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-09-24 02:58+0000\n"
-"PO-Revision-Date: 2022-09-25 11:46\n"
+"PO-Revision-Date: 2023-02-22 03:02\n"
 "Last-Translator: \n"
 "Language-Team: Japanese\n"
 "MIME-Version: 1.0\n"
@@ -19,7 +19,7 @@ msgstr ""
 
 #: ../../content/applications/inventory_and_mrp.rst:5
 msgid "Inventory & MRP"
-msgstr ""
+msgstr "在庫とMRP"
 
 #: ../../content/applications/inventory_and_mrp/inventory.rst:8
 msgid "Inventory"
@@ -27,16 +27,16 @@ msgstr "在庫"
 
 #: ../../content/applications/inventory_and_mrp/inventory.rst:10
 msgid "**Odoo Inventory** is both an inventory application and a warehouse management system, with an advanced barcode scanner app. Learn how to manage lead times, automate replenishments, and configure advanced routes like drop-shipping, cross-docks, etc."
-msgstr ""
+msgstr "**Odoo Inventory** は、在庫管理アプリケーションであり、倉庫管理システムでもあり、高度なバーコードスキャナアプリを備えています。 ここでは、リードタイムの管理、補充の自動化、ドロップシッピング（drop-shipping）、クロスドック（crodd-docks）などの高度なルートの設定方法について学びます。"
 
 #: ../../content/applications/inventory_and_mrp/inventory.rst:15
 msgid "`Odoo Tutorials: Inventory <https://www.odoo.com/slides/inventory-24>`_"
-msgstr ""
+msgstr "`Odoo チュートリアル: 在庫管理（Inventory） <https://www.odoo.com/slides/inventory-24>`_"
 
 #: ../../content/applications/inventory_and_mrp/inventory.rst:16
 #: ../../content/applications/inventory_and_mrp/manufacturing.rst:16
 msgid "`Odoo Tutorials: Barcode Scanner <https://www.odoo.com/slides/barcode-30>`_"
-msgstr ""
+msgstr "`Odoo チュートリアル: バーコードスキャナ <https://www.odoo.com/slides/barcode-30>`_"
 
 #: ../../content/applications/inventory_and_mrp/inventory/barcode.rst:5
 msgid "Barcodes"
@@ -44,31 +44,31 @@ msgstr "バーコード"
 
 #: ../../content/applications/inventory_and_mrp/inventory/barcode/operations.rst:5
 msgid "Daily Operations"
-msgstr ""
+msgstr "日々の作業"
 
 #: ../../content/applications/inventory_and_mrp/inventory/barcode/operations/adjustments.rst:3
 msgid "Process to an Inventory Adjustment with Barcodes"
-msgstr ""
+msgstr "バーコードによる在庫調整へのプロセス"
 
 #: ../../content/applications/inventory_and_mrp/inventory/barcode/operations/adjustments.rst:5
 msgid "To process an inventory adjustment by using barcodes, you first need to open the *Barcode* app. Then, from the application, click on *Inventory Adjustments*."
-msgstr ""
+msgstr "バーコードを使用して在庫調整を実施するには、まず *バーコード* アプリを開いてから、アプリの *在庫調整* をクリックします。"
 
 #: ../../content/applications/inventory_and_mrp/inventory/barcode/operations/adjustments.rst:13
 msgid "If you want to fully work with barcodes, you can download the sheet *Commands for Inventory*."
-msgstr ""
+msgstr "バーコードのすべての機能を使用したい場合は、 *Inventory用のコマンド* シートをダウンロードしてください。"
 
 #: ../../content/applications/inventory_and_mrp/inventory/barcode/operations/adjustments.rst:16
 msgid "Once you have clicked on *Inventory Adjustments*, Odoo will automatically create one. Note that, if you work with multi-location, you first need to specify in which location the inventory adjustment takes place."
-msgstr ""
+msgstr "*在庫調整* をクリックすると、Odooが自動的に作成します。 マルチロケーションを使用する場合は、最初に在庫調整が行われる場所を指定する必要があります。"
 
 #: ../../content/applications/inventory_and_mrp/inventory/barcode/operations/adjustments.rst:24
 msgid "If you don’t work with multi-location, you will be able to scan the different products you want to include in the inventory adjustment."
-msgstr ""
+msgstr "マルチロケーションでの作業ではなければ、、在庫調整に含めたい異なる製品をスキャンすることができます。"
 
 #: ../../content/applications/inventory_and_mrp/inventory/barcode/operations/adjustments.rst:31
 msgid "If you have 5 identical articles, scan it 5 times or use the keyboard to set the quantity."
-msgstr ""
+msgstr "同一のものが5つある場合は、5回スキャンするか、キーボードで数量を入力します。"
 
 #: ../../content/applications/inventory_and_mrp/inventory/barcode/operations/adjustments.rst:34
 msgid "Besides using the barcode scanner, you can also manually add a product if necessary. To do so, click on *Add Product* and fill the information in manually."
